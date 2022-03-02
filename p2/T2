@@ -1,0 +1,28 @@
+#!/bin/bash
+
+## two inserts for ron (second replaces first)
+
+cat > TEMPIN <<EOF
+#
+isrt harry quidditch
+prta
+prtt ----------------
+blnk
+#
+isrt hermione magic
+isrt ron chess
+isrt hagrid dragon
+prta
+prtt ----------------
+blnk
+#
+isrt ron NOTCHESS
+prta
+prtt ----------------
+blnk
+#
+EOF
+
+./p2 1 TEMPIN
+
+rm -f TEMPIN
