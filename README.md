@@ -13,4 +13,4 @@ Parallel processing of file using shared buffer
 Parallel processing using server and client
 
 ### P6
-Loading a function pointer from a shared file
+Parallel processing using CUDA
