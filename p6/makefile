@@ -1,6 +1,5 @@
-#
-p6: p6.c
-	cc -o p6 p6.c -ldl
+p6: p6.cu
+	/usr/local/cuda/bin/nvcc -o p6 p6.cu
 
 clean:
 	rm -f p6

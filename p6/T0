@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo
+echo RMB 
+echo
+
+/usr/bin/time -p  ./p6 /nfshome/rbutler/public/courses/pp6330/p6testfiles/IN4x3
+
+echo
+

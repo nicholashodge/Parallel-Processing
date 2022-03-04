@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo
+echo RMB 562171.000490   "   (19 secs almost all I/O)"
+echo
+
+/usr/bin/time -p  ./p6 /nfshome/rbutler/public/courses/pp6330/p6testfiles/IN1Mx128  -t
